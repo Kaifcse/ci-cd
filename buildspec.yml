@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase started"
+  pre_build:
+    commands:
+      - echo "Running tests"
+      - test -f index.html
+      - test -f appspec.yml
+  build:
+    commands:
+      - echo "Build phase started"
+      - echo "Building application"
+  post_build:
+    commands:
+      - echo "Build completed successfully"
+
+artifacts:
+  files:
+    - '**/*'
