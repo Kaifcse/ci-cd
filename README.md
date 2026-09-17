@@ -3,9 +3,6 @@
 
 Automated **Continuous Integration and Continuous Delivery (CI/CD)** workflow configuration for building, testing, and deploying the application smoothly.
 
-[![CI/CD Status](https://shields.io)](YOUR_REPOSITORY_URL/actions)
-[![Test Coverage](https://shields.io)](YOUR_REPOSITORY_URL)
-[![License: MIT](https://shields.io)](LICENSE)
 
 ---
 
